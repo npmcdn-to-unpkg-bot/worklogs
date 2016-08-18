@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "sourceMap": true,
-    "target": "es6",
+    "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
@@ -12,10 +12,10 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "removeComments": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "jsx": "react"
   },
   "exclude": [
-    "node_modules",
-    "src/client"
+    "node_modules"
   ]
 }
